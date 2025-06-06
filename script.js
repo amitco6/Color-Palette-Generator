@@ -31,7 +31,7 @@ function showCopySuccess(element) {
   setTimeout(() => {
     element.classList.remove("fas", "fa-check");
     element.classList.add("far", "fa-copy");
-    element.style.color = "";
+    element.style.color = "#64748b";
   }, 1500);
 }
 
